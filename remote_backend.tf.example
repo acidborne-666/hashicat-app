@@ -1,0 +1,8 @@
+terraform {
+  cloud {
+    organization = "HCP-TF-Practicum-1"
+    workspaces {
+      name = "YOUR_WORKSPACE"
+    }
+  }
+}
