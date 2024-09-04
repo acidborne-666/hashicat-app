@@ -206,6 +206,6 @@ module "azure-backup" {
 
   source              = "ravensorb/azure-backup/azurerm"
   version             = "1.0.2"
-  resource_group_name = "${var.prefix}-az-backup-public"
+  resource_group_name = "${var.prefix}-public"
 
 }
